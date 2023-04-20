@@ -6,6 +6,7 @@ In addition, the system should be supported by the food origin taste and service
 
 A fast food restaurant is a restaurant characterized both by food ready to eat quickly after ordering and by minimal service. One trait shared by all fast food establishments is that the customer pays for the food prior to consuming it. Often this food is referred to as fast food. The food in these restaurants is often cooked in bulk and in advance and kept warm or reheated on order. 
 
+AUTHORED BY OLUWASEYI DAUDA YESUFU <Odsyesufu7@syesufu2000@yahoo.com>
 
 > ✨ **Note:** This is an opensource Web Application for [Food Devlivery](https://react-skychef-food.firebaseapp.com/).
 
