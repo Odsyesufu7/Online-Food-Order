@@ -16,6 +16,6 @@ AUTHORED BY OLUWASEYI DAUDA YESUFU <github.com/Odsyesufu7@syesufu2000@yahoo.com>
 
 ## Getting Started
 
-- Install dependencies by running `npm install`.
-- Run `npm run start` to start the local development server.
+- Install dependencies by running `yarn install` or `npm install`.
+- Run `yarn start` or `npm run start` to start the local development server.
 - 😎 That's it! You're ready to start building awesome application.
