@@ -1,3 +1,5 @@
+Alx Webstack-Portfolio Project for Full Stack on Backend Specialization
+
 PROJECT DESCRIPTION
 An ordering system is referred to as a set of detail methods that is being used in handling the ordering process. Food ordering can be computerized or done manually. This helps the customer to order their food themselves which is known as the customer self-ordering system. The customer self-ordering system can be defined as a computerized system that is being used by customers to place their own orders in the restaurant and allow the orders to be tracked, in order to prepare and deliver the food to the computers.
 
