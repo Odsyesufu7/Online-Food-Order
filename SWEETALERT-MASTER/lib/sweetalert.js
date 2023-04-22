@@ -293,6 +293,7 @@ sweetAlert.enableButtons = swal.enableButtons = function (event) {
   $cancelButton.disabled = false;
 };
 
+
 if (typeof window !== 'undefined') {
   // The 'handle-click' module requires
   // that 'sweetAlert' was set as global.
