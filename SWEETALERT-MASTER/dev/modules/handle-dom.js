@@ -158,4 +158,5 @@ var hasClass = function(elem, className) {
     fadeIn, fadeOut,
     fireClick,
     stopEventPropagation
-  };
+  
+};
