@@ -68,6 +68,7 @@ var handleKeyDown = function(event, params, modal) {
       $targetElement = undefined;
     }
   }
+
 };
 
 export default handleKeyDown;
