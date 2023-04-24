@@ -2,7 +2,7 @@
 	extract($_GET);
 		
 	//Create a connection to the DB Server
-	$con=mysqli_connect('localhost','root','','foodicted');
+	$con=mysqli_connect('localhost','root','','Skychef Food');
 	$sql="Select * from feedback";
 	$res=mysqli_query($con,$sql);
 	while($row=mysqli_fetch_assoc($res)){
@@ -12,8 +12,8 @@
 		echo "<p class=\"stat\"><span style=\"color:blue;\">".$row['postdate']."</span><br>".$row['post']."</p>";
 		echo "<input type=\"button\" value=\"Like(0)\" id=\"likebtnsave$c\" onclick=\"likefn(this.id)\">
 		<input type=\"button\" value=\"Comment\" id=\"commentbtnsave$c\" onclick=\"commentfn(this.id)\">
-		echo "</div>";
-		}
-	header("Location: " . "http://" . $_SERVER['HTTP_HOST'] . '/webtech_project/feedbkform.php');
+		echo "<d/iv>";
+	  }
+	header("Location: " . "http://" . $_SERVER['HTTP_HOST'] . '/Skychef Food/feedbkform.php');
 
 ?>
