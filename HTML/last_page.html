@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
-	<head>
+<html lang="en">
+	<head><meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="main_style.css">
-		<title>Foodicted</title>
+		<title>Skychef</title>
 		<style>
 			#bottom{top:2500px;}
 			/*Show current location button*/
@@ -68,7 +68,7 @@
 				background-color:rgb(223,27,41);
 				padding:20px 25px;
 				transition:all;
-				transition-duration;0.2s;
+				transition-duration:0.2s;
 			}
 			
 			.submit:hover{background-color:lightgray;}
@@ -92,8 +92,8 @@
 		</div>
 		
 		<div id="topHome">
-			<div id="menuIcon" onclick="openNav()"><img src="home.png" height="40px" width="40px"/></div>
-			<div id="name">Foodicted</div>
+			<div id="menuIcon" onclick="openNav()"><img src="home.png" height="40px" width="40px" alt="image"/></div>
+			<div id="name">Skychef</div>
 			<button class="button3">LOG OUT</button>
 		</div>
 		
@@ -116,7 +116,7 @@
 		<div class="radioButton">
 			<hr>
 			<form>
-				<input type="radio" name="address" value="current"> Deliver to current location</input><br>
+				<input type="radio" name="address" value="current">Deliver to current location</input><br>
 				<input type="radio" name="address" value="home"> Deliver to home address</input><br>
 				<input type="radio" name="address" value="work"> Deliver to work address</input><br>
 			</form>
@@ -124,7 +124,7 @@
 		</div>
 		
 		<div class="bill">
-			<h2 style="color:rgb(223,27,41);text-weight:bold;">Order Summary:</h2>
+			<h2 style="color:rgb(223,27,41);font-weight:bold;">Order Summary:</h2>
 			<table>
 				<tr style="background-color:rgb(223,27,41);">
 					<th>Item</th>
@@ -144,7 +144,7 @@
 <?php
 	
 	//Create a connection to the DB Server
-	$con=mysqli_connect('localhost','root','','foodicted');
+	$con=mysqli_connect('localhost','root','','Skychef Delivery');
 	$sql="Select * from orderDelivery";
 	$res=mysqli_query($con,$sql);
 		while($row=mysqli_fetch_assoc($res)){
@@ -166,13 +166,13 @@
 		<div id="bottom">
 			<div class="bottom-content">
 				FreshBooks, 1655 Dupont St. Suite 250, Toronto, ON M6P 3T1 Canada <br>
-				Copyright &#169 2016-2020 Foodicted is a service of 2ndSite Inc. All rights reserved.<br>
+				Copyright &#169 2016-2020 Skychef Delivery Web service of. All rights reserved.<br>
 			</div>
 			
 			<div class="icons">
-				<img class="fb" src="fb_white.png" height="40px" width="40px" style="margin-left:50px;"/>
-				<img class="t" src="twit_w.png" height="40px" width="40px" style="margin-left:50px;"/>
-				<img class="li" src="in_w.png" height="40px" width="40px" style="margin-left:50px;"/>
+				<img class="fb" src="fb_white.png" height="40px" width="40px" style="margin-left:50px;" alt="image"/>
+				<img class="t" src="twit_w.png" height="40px" width="40px" style="margin-left:50px;" alt="image"/>
+				<img class="li" src="in_w.png" height="40px" width="40px" style="margin-left:50px;"alt="image"/>
 			</div>
 		</div>	
 
