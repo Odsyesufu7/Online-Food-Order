@@ -96,17 +96,17 @@
 			
 			require_once "Mail.php";
 			include('Mail/mime.php');
-			$from = "Jyothsna Somanna <jyo.somanna@gmail.com>";
-			$to = "Jyothsna Somanna <jyo.somanna@gmail.com>";
-			$subject = "Foodicted - Reservation Confirmation";
-			$body = "Hi!\n\tYour reservation has been confirmed at $time hrs for $ppl people.\n\nCheers\nFoodicted Team";
+			$from = "Tony Curtis <tonycurtis10@gmail.com>";
+			$to = "Oluwaseyi Yesufu <oyesufu7@gmail.com>";
+			$subject = "Skychef Food - Reservation Confirmation";
+			$body = "Hi!\n\tYour reservation has been confirmed at $time hrs for $ppl people.\n\nCheers\nSkychef Team";
 			 
 			$text = 'Text version of email';// text and html versions of email.
 			$html = '<html><body>HTML version of email. <strong>This should be bold</strong></body>        </html>';
 						 
 			$host = "smtp.gmail.com";
-			$username = "jyo.somanna@gmail.com";
-			$password = "coolsurfer890";
+			$username = "tonycurtis10@gmail.com";
+			$password = "soul4real";
 			 
 			$headers = array ('From' => $from,
 			  'To' => $to,
