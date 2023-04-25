@@ -148,29 +148,29 @@
 			<script>
 			function login(){
 				//$.get("login.php");
-				window.location = "http://localhost/webtech_project/login.php";
+				window.location = "http://localhost/Skychef/login.php";
 			}
 			function logout(){
 				$.get("logout.php");
-				window.location = "http://localhost/webtech_project/home_pagev2.php";
+				window.location = "http://localhost/Skychef/home_pagev2.php";
 			}
 			function signup(){
-				window.location = "http://localhost/webtech_project/sign_up.php";
+				window.location = "http://localhost/Skychef/sign_up.php";
 			}
 			function gotohome(){
-				window.location = "http://localhost/webtech_project/home_pagev2.php";
+				window.location = "http://localhost/Skychef/home_pagev2.php";
 			}
 			function gotodeliver(){
-				window.location = "http://localhost/webtech_project/food_order_filter/filter.php";
+				window.location = "http://localhost/Skychef/food_order_filter/filter.php";
 			}
 			function gotocart(){
-				window.location = "http://localhost/webtech_project/last_pagev2.php";
+				window.location = "http://localhost/Skychef/last_pagev2.php";
 			}
 			function gotoreserve(){
-				window.location = "http://localhost/webtech_project/reserveform.php";
+				window.location = "http://localhost/Skychef/reserveform.php";
 			}
 			function gotofeed(){
-				window.location = "http://localhost/webtech_project/finalfeed.php";
+				window.location = "http://localhost/Skychef/finalfeed.php";
 			}
 			function openNav() {
 				document.getElementById("myNav").style.width = "30%";
@@ -201,7 +201,7 @@
 		
 		<div id="topHome">
 			<div id="menuIcon" onclick="openNav()"><img src="home.png" height="40px" width="40px"/></div>
-			<div id="name">Foodicted</div>
+			<div id="name">Skychef</div>
 		<?php
 			//session_start();
 			if(isset($_SESSION["username"]) && $_SESSION["username"]!="" )
@@ -272,23 +272,32 @@
 		<div class="dropdown">
 			<button id="show">SHOW RESTAURANTS</button>
 			<div class="dropdown-content">
-				<p class="gotofd">Bangalore</p>
-				<p class="gotofd">Mumbai</p>
-				<p class="gotofd">Pune</p>
+				<p class="gotofd">Abuja</p>
+				<p class="gotofd">Lagos</p>
+				<p class="gotofd">Kano</p>
+				<p class="gotofd">Uyo</p>
+				<p class="gotofd">Calabar</p>
+				<p class="gotofd">Port Harcourt</p>
+				<p class="gotofd">Jos</p>
+				<p class="gotofd">Benin</p>
+				<p class="gotofd">Asaba</p>
+				<p class="gotofd">Warri</p>
+				<p class="gotofd">Kaduna</p>
+				<p class="gotofd">Enugu</p>
 			</div>
 		</div>
 
 		<div id="bottom">
 			<div class="bottom-content">
-				PES University, BSK 3rd Stage, Bangalore, India <br>
-				Copyright &#169 PES University 2016. All rights reserved. No part of this site or its contents may be copied or replicated elsewhere<br>
+			1(N) 51 Road House 11 Environmental Fha Phase 3 Lugbe Fct Abuja Nigeria <br>
+			Copyright &#169 2023 Skychef Delivery Web service. All rights reserved.<br>
 			</div>
 			
 			<div class="icons">
-				<p style="color:white">Contact the founders:
+				<p style="color:white">Contact the founder:
 				<img class="fb" src="fb_white.png" id="link" height="40px" width="40px" style="margin-left:50px;"/>
 				<img class="li" src="in_w.png" id="link" height="40px" width="40px" style="margin-left:50px;"/></p>
-				<p style="color:white">Tweet about us...
+				<p style="color:white">Tweet about it...
 				<img class="t" src="twit_w.png" id="link" height="40px" width="40px" style="margin-left:50px;"/></p>
 			</div>
 			<script>
@@ -301,16 +310,16 @@
 				function links(e){
 					var t=e.target.className;
 					if(t=="fb")
-						window.location = "http://facebook.com/Jyothsna.Somanna";
+						window.location = "http://facebook.com/Yesufu.Oluwaseyi";
 					if(t=="t")
-						window.location = "https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20web%20application%20called%20Foodicted";
+						window.location = "https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20web%20application%20called%20Skychef";
 					if(t=="li")
-						window.location = "https://www.linkedin.com/in/jyothsna-somanna-087a55123";
+						window.location = "https://www.linkedin.com/in/https://www.linkedin.com/in/oluwaseyi-yesufu-190bba48?";
 				}
 				function cities(e){
 					var t=e.target.innerHTML;
 					if(t=="Bangalore")
-						window.location = "http://localhost/webtech_project/food_order_filter/filter.php?q=" + encodeURIComponent(t);
+						window.location = "http://localhost/Skychef/food_order_filter/filter.php?q=" + encodeURIComponent(t);
 					if(t=="Mumbai")
 						swal({title: "An ERROR occurred",text: "No restaurants are available in the requested city",type: "error",confirmButtonText: "OK"});
 					if(t=="Pune")
