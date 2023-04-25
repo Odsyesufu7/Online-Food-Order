@@ -5,7 +5,7 @@
 		echo "<h3 style=\"position:relative;top:10vh;left:10vh;\">Please select an address option and resubmit.</h3>";
 	else{
 	// Authorisation details.
-	$username = "jyo.somanna@gmail.com";
+	$username = "oyesufu7@gmail.com";
 	$hash = "8c98b7bc5923ee7f9886f89b53cf1c54db5b4b6d";
 	
 	// Config variables. Consult http://api.textlocal.in/docs for more info.
