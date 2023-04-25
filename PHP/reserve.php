@@ -40,9 +40,9 @@
 			<label><input type="radio" name="cost" value="&gt 2000"/>&gt 2000</label><br>
 			<br>
 			<label class="filter_name">Location</label><br>
-			<label><input type="checkbox" name="location[]" value="indiranagar"/>Indiranagar</label><br>
-			<label><input type="checkbox" name="location[]" value="kormangala"/>Kormangala</label><br>
-			<label><input type="checkbox" name="location[]" value="jayanagar"/>Jayanagar</label><br>
+			<label><input type="checkbox" name="location[]" value="Abuja"/>Abuja</label><br>
+			<label><input type="checkbox" name="location[]" value="Lagos"/>Lagos</label><br>
+			<label><input type="checkbox" name="location[]" value="Kano"/>Kano</label><br>
 			<br>
 			
 			<label><input type="reset"/></label><br><br>
