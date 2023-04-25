@@ -1,17 +1,17 @@
 <?php
  require_once "Mail.php";
  include('Mail/mime.php');
- $from = "Jyothsna Somanna <jyo.somanna@gmail.com>";
- $to = "Jyothsna Somanna <jyo.somanna@gmail.com>";
+ $from = "Tony Curtis <tonycurtis10@gmail.com>";
+ $to = "Oluwaseyi Yesufu <oyesufu7@gmail.com>";
  $subject = "Hi !";
  $body = "Hi,\n\nHow are you?";
  
  $text = 'Text version of email';// text and html versions of email.
  $html = '<html><body>HTML version of email. <strong>This should be bold</strong></body>        </html>';
- $file = 'E:\PES 3rd sem\webtech 1\PHP5 mail().pptx';
+ $file = 'E:\Skychef\syesufu2000@yahoo.com\PHP5 mail().pptx';
  
  $host = "smtp.gmail.com";
- $username = "jyo.somanna@gmail.com";
+ $username = "tonycurtis10@gmail.com";
  $password = "coolsurfer890";
  
  $headers = array ('From' => $from, 'Content-type'=> 'applications',
@@ -22,7 +22,7 @@
  $mime->setTXTBody($text);
  $mime->setHTMLBody($html); 
  $mime->addAttachment($file,'applications/octet-stream');
- $body = "PFA \nRegards \nJyothsna Somanna";
+ $body = "PFA \nRegards \nOluwaseyi Yesufu";
  $headers = $mime->headers($headers);
  echo $headers["Content-type"];
  $smtp = Mail::factory('smtp',
