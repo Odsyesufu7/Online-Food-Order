@@ -103,12 +103,12 @@
 				<tr>
 					<td>Dew Drop Sundae</td>
 					<td>1</td>
-					<td>Rs.140</td>
+					<td>$0.017</td>
 				</tr>
 				<tr>
 					<td>Death by chocolate</td>
 					<td>2</td>
-					<td>Rs.360</td>	
+					<td>$0.044</td>	
 
 <?php
 	
