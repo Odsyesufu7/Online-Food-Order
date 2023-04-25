@@ -50,7 +50,7 @@ $conn = mysqli_connect('localhost','root','', 'foodicted');
 	</head>
 	<body>
 	<img src='thankyou.jpg' id ='pic'>
-	<p id='txt'>Thank you for signing up with us. <a href='http://localhost/webtech_project/login.php'>Click here </a>to sign in.</p>
+	<p id='txt'>Thank you for signing up with us. <a href='http://localhost/Skychef/login.php'>Click here </a>to sign in.</p>
 	</body>
 	</html>";
 
