@@ -269,7 +269,7 @@
 		<?php	
 		$c=1;
 		//Create a connection to the DB Server
-		$con=mysqli_connect('localhost','root','','foodicted');
+		$con=mysqli_connect('localhost','root','','Skychef Food');
 		$sql="Select * from feedback";
 		$res=mysqli_query($con,$sql);
 		while($row=mysqli_fetch_assoc($res)){
