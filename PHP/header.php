@@ -8,7 +8,7 @@
 		<script src="sweetalert-master/dist/sweetalert.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="sweetalert-master/dist/sweetalert.css">
 
-		<title>Foodicted</title>
+		<title>Skychef</title>
 		<script>
 			function login(){
 				//$.get("login.php");
@@ -65,7 +65,7 @@
 		
 		<div id="topHome">
 			<div id="menuIcon" onclick="openNav()"><img src="home.png" height="40px" width="40px"/></div>
-			<div id="name">Foodicted</div>
+			<div id="name">Skychef</div>
 		<?php
 			//session_start();
 			if(isset($_SESSION["username"]) && $_SESSION["username"]!="" )
