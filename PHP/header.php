@@ -12,29 +12,29 @@
 		<script>
 			function login(){
 				//$.get("login.php");
-				window.location = "http://localhost/webtech_project/login.php";
+				window.location = "http://localhost/Skychef/login.php";
 			}
 			function logout(){
 				$.get("logout.php");
-				window.location = "http://localhost/webtech_project/home_pagev2.php";
+				window.location = "http://localhost/Skychef/home_pagev2.php";
 			}
 			function signup(){
-				window.location = "http://localhost/webtech_project/sign_up.php";
+				window.location = "http://localhost/Skychef/sign_up.php";
 			}
 			function gotohome(){
-				window.location = "http://localhost/webtech_project/home_pagev2.php";
+				window.location = "http://localhost/Skychef/home_pagev2.php";
 			}
 			function gotoreserve(){
-				window.location = "http://localhost/webtech_project/reserveform.php";
+				window.location = "http://localhost/Skychef/reserveform.php";
 			}
 			function gotodeliver(){
-				window.location = "http://localhost/webtech_project/food_order_filter/filter.php";
+				window.location = "http://localhost/Skychef/food_order_filter/filter.php";
 			}
 			function gotocart(){
-				window.location = "http://localhost/webtech_project/last_pagev2.php";
+				window.location = "http://localhost/Skychef/last_pagev2.php";
 			}
 			function gotofeed(){
-				window.location = "http://localhost/webtech_project/finalfeed.php";
+				window.location = "http://localhost/Skychef/finalfeed.php";
 			}
 			function openNav(){
 				document.getElementById("myNav").style.width = "30%";
