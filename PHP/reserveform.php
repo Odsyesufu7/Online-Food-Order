@@ -50,7 +50,7 @@
 	if(isset($_SESSION['rname']))
 		session_unset($_SESSION['rname']);
 	extract($_GET);
-	$con=mysqli_connect('localhost','root','','foodicted');
+	$con=mysqli_connect('localhost','root','','Skychef');
 	$sql="Select * from reserve";
 	$res=mysqli_query($con,$sql);
 	$i=0;
@@ -122,7 +122,7 @@
 			var s= z.firstChild.innerHTML.toString();
 			s= s.split("</span>")[1];
 			s = s.split(",")[0];
-			window.location = "http://localhost/webtech_project/confirm_reserve.php?q=" + encodeURIComponent(s);
+			window.location = "http://localhost/Skychef/confirm_reserve.php?q=" + encodeURIComponent(s);
 <?php
 
 
