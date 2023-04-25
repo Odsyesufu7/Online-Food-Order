@@ -13,10 +13,10 @@ $starter_qty =0;
 $main_qty =0;
 $dessert_qty=0;
 //the price for 1 order of the item
-$soup_price = 0; //190
-$starter_price =0;//395
-$main_price =0;//430
-$dessert_price =0 ;//170
+$soup_price = 0; //2.32
+$starter_price =0;//4.82
+$main_price =0;//6.04
+$dessert_price =0 ;//2.07
 
 // to get the name of the orders
 $sname='';//soup
@@ -31,10 +31,10 @@ if($soup)
 	// getting the name of the order
 	$sname = $_POST['soup'];
 	if($sname=="Veg Sweet Corn soup")//Mainland china
-		{$soup_price = 190;}
+		{$soup_price = 2.32;}
 	else
 	{
-		$soup_price = 180;//Jalpaan
+		$soup_price = 2.20;//Jalpaan
 	}
 	$soup_qty = $_POST['soup_qty'];
 	$soup_qty=intval($soup_qty);//converting to int type
@@ -49,12 +49,12 @@ if($starter)
 	$stname = $_POST['starter'];
 	if($stname=="Chilli Teriyaki Potatoes")
 	{
-		$starter_price =395;
+		$starter_price =4.82;
 		
 	}
 	else
 	{
-		$starter_price =340;
+		$starter_price =4.15;
 		
 	}
 	$starter_qty =$_POST["starter_qty"];
@@ -68,12 +68,12 @@ if($main)
 	$mname = $_POST['main-course'];
 	if($mname =="Fiery Sapo Vegetable")
 	{
-		$main_price =430;
+		$main_price =5.25;
 		
 	}
 	else
 	{
-		$main_price =400;
+		$main_price =4.88;
 		
 	}
 	$main_qty =$_POST["mc_qty"];
@@ -88,12 +88,12 @@ if($dessert)
 	$dname = $_POST['dessert'];
 	if($dname=="Honey Noodles")
 	{
-		$dessert_price = 170;
+		$dessert_price = 2.07;
 		
 	}
 	else
 	{
-		$dessert_price = 150;
+		$dessert_price = 1.83;
 		
 	}
 
