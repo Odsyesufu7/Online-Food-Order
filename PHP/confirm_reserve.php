@@ -74,7 +74,7 @@
 	</form>
 <?php
 	if(isset($ppl) && isset($time)){
-		$con=mysqli_connect('localhost','root','','Skychef Food');
+		$con=mysqli_connect('localhost','root','','Skychef');
 		$q=$_SESSION['rname'];
 		$z=$ppl."table";
 		$sql="Select * from tablestat where name='$q'";
@@ -98,7 +98,7 @@
 			include('Mail/mime.php');
 			$from = "Tony Curtis <tonycurtis10@gmail.com>";
 			$to = "Oluwaseyi Yesufu <oyesufu7@gmail.com>";
-			$subject = "Skychef Food - Reservation Confirmation";
+			$subject = "Skychef - Reservation Confirmation";
 			$body = "Hi!\n\tYour reservation has been confirmed at $time hrs for $ppl people.\n\nCheers\nSkychef Team";
 			 
 			$text = 'Text version of email';// text and html versions of email.
