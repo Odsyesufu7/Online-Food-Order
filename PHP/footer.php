@@ -10,8 +10,8 @@
 	</head>
 		<div id="bottom">
 			<div class="bottom-content">
-				PES University, BSK 3rd Stage, Bangalore, India <br>
-				Copyright &#169 PES University 2016. All rights reserved. No part of this site or its contents may be copied or replicated elsewhere<br>
+			1(N) 51 Road House 11 Environmental Fha Phase 3 Lugbe Fct Abuja Nigeria <br>
+			Copyright &#169 2023 Skychef Delivery Web service. All rights reserved.<br>
 			</div>
 			
 			<div class="icons">
@@ -28,9 +28,9 @@
 				function links(e){
 					var t=e.target.className;
 					if(t=="fb")
-						window.location = "http://www.facebook.com/Yesufu Oluwaseyi";
+						window.location = "http://www.facebook.com/Yesufu.Oluwaseyi";
 					if(t=="t")
-						window.location = "https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20web%20application%20called%20Skychef Food";
+						window.location = "https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20web%20application%20called%20Skychef";
 					if(t=="li")
 						window.location = "https://www.linkedin.com/in/https://www.linkedin.com/in/oluwaseyi-yesufu-190bba48";
 				}
