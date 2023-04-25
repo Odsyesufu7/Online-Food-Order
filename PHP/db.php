@@ -2,7 +2,7 @@
     extract($_GET);
 		
     // Create a connection to the DB Server
-    $con = mysqli_connect('localhost', 'root', '', 'Skychef Food');
+    $con = mysqli_connect('localhost', 'root', '', 'Skychef');
     $sql = "SELECT * FROM feedback";
     $res = mysqli_query($con, $sql);
     $c = 0;
@@ -16,5 +16,5 @@
         echo "</div>";
     }
     mysqli_close($con);
-    header("Location: http://" . $_SERVER['HTTP_HOST'] . '/Skychef Food/feedbkform.php');
+    header("Location: http://" . $_SERVER['HTTP_HOST'] . '/Skychef/feedbkform.php');
 ?>
