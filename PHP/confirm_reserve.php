@@ -74,7 +74,7 @@
 	</form>
 <?php
 	if(isset($ppl) && isset($time)){
-		$con=mysqli_connect('localhost','root','','foodicted');
+		$con=mysqli_connect('localhost','root','','Skychef Food');
 		$q=$_SESSION['rname'];
 		$z=$ppl."table";
 		$sql="Select * from tablestat where name='$q'";
