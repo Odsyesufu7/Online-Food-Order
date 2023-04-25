@@ -28,11 +28,11 @@
 				function links(e){
 					var t=e.target.className;
 					if(t=="fb")
-						window.location = "http://facebook.com/Jyothsna.Somanna";
+						window.location = "http://www.facebook.com/Yesufu Oluwaseyi";
 					if(t=="t")
-						window.location = "https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20web%20application%20called%20Foodicted";
+						window.location = "https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20web%20application%20called%20Skychef Food";
 					if(t=="li")
-						window.location = "https://www.linkedin.com/in/jyothsna-somanna-087a55123";
+						window.location = "https://www.linkedin.com/in/https://www.linkedin.com/in/oluwaseyi-yesufu-190bba48";
 				}
 			</script>
 		</div>
