@@ -113,7 +113,7 @@
 <?php
 	
 	//Create a connection to the DB Server
-	$con=mysqli_connect('localhost','root','','foodicted');
+	$con=mysqli_connect('localhost','root','','Skychef');
 	$sql="Select * from orderDelivery";
 	$res=mysqli_query($con,$sql);
 		while($row=mysqli_fetch_assoc($res)){
