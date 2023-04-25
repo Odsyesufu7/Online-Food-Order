@@ -115,7 +115,7 @@
 <?php
 	
 	//Create a connection to the DB Server
-	$con=mysqli_connect('localhost','root','','foodicted');
+	$con=mysqli_connect('localhost','root','','Skychef');
 	$sql="Select * from orderDelivery";
 	$res=mysqli_query($con,$sql);
 	if(mysqli_num_rows($res)==0)
