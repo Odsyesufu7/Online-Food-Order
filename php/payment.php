@@ -10,7 +10,7 @@ header("location: customerlogin.php");
 <html>
 
   <head>
-    <title> Cart | Le Cafe' </title>
+    <title> Cart | Skychef </title>
   </head>
 
   <link rel="stylesheet" type = "text/css" href ="css/payment.css">
@@ -52,7 +52,7 @@ header("location: customerlogin.php");
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Le Cafe'</a>
+          <a class="navbar-brand" href="index.php">Skychef</a>
         </div>
 
         <div class="collapse navbar-collapse " id="myNavbar">
