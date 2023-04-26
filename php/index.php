@@ -5,7 +5,7 @@ session_start();
 <html>
 
   <head>
-    <title> Home | Le Cafe' </title>
+    <title> Home | Skychef </title>
   </head>
 
   <link rel="stylesheet" type = "text/css" href ="css/bootstrap.min.css">
@@ -46,7 +46,7 @@ session_start();
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Le Cafe'</a>
+          <a class="navbar-brand" href="index.php">Skychef</a>
         </div>
 
         <div class="collapse navbar-collapse " id="myNavbar">
@@ -123,7 +123,7 @@ else {
       	<div class="col-xs-5 line"><hr></div>
         <div class="col-xs-2 logo"><img src="images/LogoImage.jpg"></div>
         <div class="col-xs-5 line"><hr></div>
-        <div class="tagline">Good Food is Good Mood</div>
+        <div class="tagline">Good Food Good Thinking</div>
     </div>
     <br>
     <div class="orderblock">
