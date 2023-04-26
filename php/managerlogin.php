@@ -10,7 +10,7 @@ header("location: myrestaurant.php"); //Redirecting to myrestaurant Page
 <html>
 
   <head>
-    <title> Manager Login | Le Cafe' </title>
+    <title> Manager Login | Skychef </title>
   </head>
 
   <link rel="stylesheet" type = "text/css" href ="css/managerlogin.css">
@@ -88,7 +88,7 @@ header("location: myrestaurant.php"); //Redirecting to myrestaurant Page
 
     <div class="container">
     <div class="jumbotron">
-     <h1>Hi Manager,<br> Welcome to <span class="edit"> Le Cafe' </span></h1>
+     <h1>Hi Manager,<br> Welcome to <span class="edit"> Skychef </span></h1>
      <br>
    <p>Kindly LOGIN to continue.</p>
     </div>
