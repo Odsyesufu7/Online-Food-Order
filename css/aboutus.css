@@ -1,13 +1,14 @@
-body,
-html {
+body,html {
   height: 100%;
-}
+ }
 
 body {
   padding-top: 50px;
+
+
 }
 
-#myBtn {
+#myBtn{
   display: none;
   position: fixed;
   bottom: 20px;
@@ -26,26 +27,28 @@ body {
   color: white;
 }
 
-.bg-4 {
+.bg-4{
   background-color: #2f2f2f;
   color: #ffffff;
+
 }
 
-footer {
+footer{
   display: block;
 }
 
 .wide {
-  width: 100%;
-  height: 100%;
-  height: calc(100% - 1px);
-  background-image: url("headerimg3.jpg");
-  background-size: cover;
+  width:100%;
+  height:100%;
+  height:calc(100% - 1px);
+  background-image:url('headerimg3.jpg');
+  background-size:cover;
 }
 
 .wide img {
-  width: 100%;
+  width:100%;
   border-radius: 10px;
+
 }
 
 .tagline {
@@ -57,25 +60,28 @@ footer {
   padding-top: 12%;
 }
 
-.paragraph1 {
+.paragraph1{
   text-align: center;
   padding: 60px;
   font-family: "Sans serif";
-  background-color: #dcdcdc;
+  background-color: #DCDCDC;
 }
 
 .paragraph2 {
-  background-color: #fafafa;
+  background-color: #FAFAFA;
   padding: 10px 40px 60px;
   margin: 10px 0px 60px;
   border: 1px solid GREY;
+
+ }
+
+.goldcolor{
+  color: #D4AF37;
+
 }
 
-.goldcolor {
-  color: #d4af37;
-}
 
-.missionbox {
+.missionbox{
   border-radius: 25px;
   background-color: green;
   color: white;
@@ -88,18 +94,21 @@ footer {
   text-align: center;
 }
 
-.missionfont {
+.missionfont{
   font-size: 45px;
 }
 
-.paragraph3 {
+.paragraph3{
   text-align: center;
   padding: 60px;
   height: 250px;
   font-family: "Sans serif";
-  background-color: #dcdcdc;
+  background-color: #DCDCDC;
 }
 
-.darkgoldcolor {
+.darkgoldcolor{
   color: #996515;
+
 }
+  
+  
