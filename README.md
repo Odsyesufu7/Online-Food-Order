@@ -1,4 +1,0 @@
-Skychef Food is a web application is designed and developed to provide online food order and delivery from restaurant to customers and users, it's a system where customers can order food based on the type of menu available,location and price range etc. The first point of call is requires customers to create an account on the website to ensure security and the best customer service experience.
-
-Key Features:
-• Dynamic page to display the order placed by the user (food order cart), bill summary and choice of location to deliver the placed order.• Google Maps to display current location and give the user a choice to deliver the food to customers current location • Designing the complete home page with login & sign up options, navigation menu to direct to other pages and header and footer. • Account creation, registration and validation using java script and data on database.
