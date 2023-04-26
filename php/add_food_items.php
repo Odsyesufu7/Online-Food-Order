@@ -10,7 +10,7 @@ header('Location: managerlogin.php');
 <html>
 
   <head>
-    <title> Manager Login | Le Cafe' </title>
+    <title> Manager Login | Skychef' </title>
   </head>
 
   <link rel="stylesheet" type = "text/css" href ="css/add_food_items.css">
