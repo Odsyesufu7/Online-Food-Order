@@ -7,3 +7,7 @@ Dynamic page to display the order placed by the user (food order cart), bill sum
 Google Maps to display current location and give the user a choice to deliver the food to his/her current location.
 Designing the complete home page with login & sign up options, navigation menu to direct to other pages and header and footer to be rendered on each web page.
 Account creation, registration and validation using javascript and data on database.
+
+
+https://user-images.githubusercontent.com/102301571/235099682-1e54f7eb-cc42-41bf-8eba-16204f6a49f0.mp4
+
