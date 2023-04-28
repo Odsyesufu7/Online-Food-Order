@@ -174,7 +174,7 @@ $total = $total + ($values["food_quantity"] * $values["food_price"]);
 ?>
 <tr>
 <td colspan="3" align="right">Total</td>
-<td align="right">&#8377; <?php echo number_format($total, 2); ?></td>
+<td align="right">&#8358; <?php echo number_format($total, 2); ?></td>
 <td></td>
 </tr>
 </table>
