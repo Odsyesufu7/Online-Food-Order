@@ -185,7 +185,7 @@ header('Location: managerlogin.php');
 
           <div class="form-group">
             <label for="username"><span class="text-danger" style="margin-right: 5px;">*</span> Food Price: </label>
-            <input type="text" class="form-control" id="dprice" name="dprice" value=<?php echo $row1['price'];  ?> placeholder="Your Food Price (USD)" required="">
+            <input type="text" class="form-control" id="dprice" name="dprice" value=<?php echo $row1['price'];  ?> placeholder="Your Food Price (NGN)" required="">
           </div>
 
           <div class="form-group">
