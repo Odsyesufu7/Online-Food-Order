@@ -117,7 +117,7 @@ header('Location: managerlogin.php');
           </div>     
 
           <div class="form-group">
-            <input type="text" class="form-control" id="price" name="price" placeholder="Your Food Price (INR)" required="">
+            <input type="text" class="form-control" id="price" name="price" placeholder="Your Food Price (NGN)" required="">
           </div>
 
           <div class="form-group">
