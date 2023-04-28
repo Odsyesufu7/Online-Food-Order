@@ -168,7 +168,7 @@ $gtotal = 0;
           </div>
         </div>
         <br>
-<h1 class="text-center">Grand Total: &#8377;<?php echo "$gtotal"; ?>/-</h1>
+<h1 class="text-center">Grand Total: &#8358;<?php echo "$gtotal"; ?>/-</h1>
 <h5 class="text-center">including all service charges. (no delivery charges applied)</h5>
 <br>
 <h1 class="text-center">
