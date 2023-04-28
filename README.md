@@ -11,3 +11,5 @@ Account creation, registration and validation using javascript and data on datab
 
 https://user-images.githubusercontent.com/102301571/235099682-1e54f7eb-cc42-41bf-8eba-16204f6a49f0.mp4
 
+
+Authored BY OLUWASEYI DAUDA YESUFU <syesufu2000@yahoo.com>
